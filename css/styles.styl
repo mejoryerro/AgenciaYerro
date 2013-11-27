@@ -1,0 +1,399 @@
+@import 'nib/vendor'
+
+vendor-prefixes = o ms webkit official
+
+azul_claro = #e9f2f0
+verde_oscuro = #3d605f
+naranja_oscuro = #cc6431
+naranja_claro = #f29c14
+gris_fondo = #f5f5f5
+rosa-claro = #f9eaea
+rosa_oscuro = #ca9897
+rosa_oscuro_texto = #9b7272
+
+body
+{
+	background: #e9f2f0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 13px;
+}
+footer
+{
+	background: #F8CACB;
+	clear: both;
+	overflow hidden
+	padding: 8px;
+}
+footer a
+{
+    color #3d605f
+}
+footer div
+{
+    font-size 1.4em
+    text-align center
+}
+footer figure
+{
+    margin auto
+    width 120px
+}
+footer img
+{
+    width 100%
+}
+footer p
+{
+    color naranja_oscuro
+}
+footer ul
+{
+    list-style: none;
+}
+footer .clientes
+{
+    margin-bottom 50px
+    margin-top 50px
+    text-align center
+}
+footer .social-foot
+{
+    font-family "Sosa"
+    font-size 2.5em
+    margin-top 50px
+}
+footer .social-foot a
+{
+    text-decoration none
+}
+footer .social-foot #facebook:after
+{
+    content "v"
+}
+footer .social-foot #twitter:after
+{
+    content "t"
+}
+footer .social-foot #linkedin:after
+{
+    content "ą"
+}            
+h2
+{
+    font-size 2.5em
+    font-weight 300
+    letter-spacing 0.2em
+}
+header
+{
+    background url(../img/HeaderTela3.jpg) repeat center center
+    overflow: hidden;
+    padding 0 0 2px 0
+    position: relative;
+}
+#lema
+{
+    left: 180px;
+    position: absolute;
+    top: 0;
+}
+#nota
+{   
+    background url(../img/FondoNotaAzul.jpg) no-repeat top center
+    background-size 100%
+    border-radius 0 0 1em 1em
+    border 2px #9bcdcc solid
+    box-shadow 1px 1px 5px verde_oscuro
+    float left
+    height 220px
+    margin 0 1.5em 0 5%
+    min-width 150px
+    position relative
+    top 0
+    width 18%
+}
+#nota nav
+{
+    padding 4em 0 0 0
+    text-align center
+}
+#nota nav a
+{
+    background rosa-claro
+    border 2px #fff solid
+    border-radius 6px
+    box-shadow 0px 0px 20px #fff
+    color rosa_oscuro_texto
+    font-size 1.3em
+    line-height 2.2em
+    margin 2px
+    padding 5px
+    text-decoration none
+}
+#nota nav a:hover
+{
+    box-shadow 0px 0px 0px #fff
+}
+#nota nav ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nota nav li
+{
+    bottom: 0;
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0 0.5em;
+}
+#nota figure
+{
+    text-align center
+}
+#nota img
+{
+    width: 95%;
+}
+#social
+{
+    visibility hidden
+}
+dt
+{
+    cursor: pointer;
+    overflow: hidden;
+} 
+dt:hover
+{ 
+    box-shadow 2px 2px 6px verde_oscuro
+}
+dt.activo
+{
+    box-shadow 0px 0px 20px verde_oscuro   
+}
+.titulo
+{
+    margin-left 1em
+    color azul_claro
+    text-shadow 1px 1px 3px black
+}
+.titulo h1
+{
+    font-family 'Lobster', cursive
+    font-size 1.7em
+    line-height 1em
+
+}
+.titulo h3
+{
+    font-size 1.1em
+    font-weight 300
+    letter-spacing 0.1em
+    margin-top -1em
+}
+/*----------------------------------
+Tabs - Accordion 1
+----------------------------------*/
+.cn-container
+{
+    margin 0 auto
+    margin-bottom 5%
+    min-width 350px
+    width 45%
+}
+.cn-container figure
+{
+    width 40%
+}
+.cn-container img
+{
+    width 100%
+}
+.cn-container p
+{
+    margin: 20px;
+    position absolute
+    padding 0.5em
+}
+.cn-container .ladillo1
+{
+    color rosa_oscuro_texto
+    text-align right
+}
+.cn-container #asesoramos, .cn-container #estructura, .cn-container #gestionamos
+{
+    background #fff
+    border-radius: 2em;
+    font-size 1.3em
+    font-weight 500
+    height 120px
+    letter-spacing 0.03em
+    margin 6px
+    padding 20px
+    padding-top 0
+    position: relative;
+}
+.cn-container #asesoramos
+{
+    color rosa_oscuro_texto
+    padding-left 0
+}
+.cn-container #asesoramos figure
+{
+    float left
+}
+.cn-container #asesoramos #acc-1
+{
+    background: #ca9897 url(../img/CuadriculaRosa.jpg) repeat center center;
+    border: 2px #ca9897 solid;
+    border-radius: 0.7em;
+    box-shadow: 2px 2px 7px #888;
+    display: inline-block;
+}
+.cn-container #asesoramos #acc-1:after
+{
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #ca9897;
+    border-top: 8px solid transparent;
+    content: "";
+    left: -10px;
+    position: absolute;
+    top: 30%;
+}
+.cn-container #estructura
+{
+    color verde_oscuro
+    padding-right 0
+}
+.cn-container #estructura figure
+{
+    float right
+}
+.cn-container #estructura #acc-2 
+{
+    background: #3d605f url(../img/CuadriculaAzul.jpg) repeat center center;
+    border: 2px #3d605f solid;
+    border-radius: 0.7em;
+    box-shadow -2px 2px 7px #888
+    margin-right 42%
+}
+.cn-container #estructura #acc-2:after
+{
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #3d605f;
+    border-top: 8px solid transparent;
+    content: "";
+    right: -10px;
+    position: absolute;
+    top: 25%;
+}
+.cn-container #gestionamos
+{
+    color naranja_oscuro
+    padding-left 0
+}
+.cn-container #gestionamos figure
+{
+    float left
+}
+.cn-container #gestionamos #acc-3 
+{
+    background: #cc6431 url(../img/CuadriculaNaranja.jpg) repeat center center;
+    border: 2px #cc6431 solid;
+    border-radius: 0.7em;
+    box-shadow: 2px 2px 7px #888;
+    display: inline-block;
+}
+.cn-container #gestionamos #acc-3:after
+{
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #cc6431;
+    border-top: 8px solid transparent;
+    content: "";
+    left: -10px;
+    position: absolute;
+    top: 30%;
+}
+.cn-note
+{
+    float right
+    font-size: 1em;
+    text-align: right;
+}
+.cn-note a
+{
+    color naranja_oscuro
+}
+.dd-cn
+{ 
+    background: #F5F5F5;
+    border-bottom: 10px #DBD7D7 solid;
+    border-left: 2px #fff solid;
+    border-right: 2px #fff solid;
+    border-radius 0em 0em 1em 1em
+    color verde_oscuro
+    font-size 1.3em
+    font-weight 500
+    line-height 1.2em
+    margin -2px 2em 4px 2em
+    padding 1em
+}
+/*----------------------------------------
+Accordion 2
+------------------------------------------- */
+
+.ac-container
+{
+    margin 0 auto
+    margin-bottom 7%
+    min-width 350px
+    width 45%
+}
+.ac-container .dd-ac
+{
+    background gris_fondo
+    border 10px #fff solid
+    border-radius: 1.5em;
+    color verde_oscuro
+    font-size: 1.3em;
+    font-weight 500
+    line-height: 1.2em;
+    margin -40px 6% -30px 0px
+    padding 0.5em 1em
+    text-align: left;
+}
+.ac-container .ladillo2
+{
+    color verde_oscuro
+    text-align center
+}
+.ac-container .editamos, .ac-container .corregimos, .ac-container .redactamos,
+{ 
+    border #fff 10px solid
+    border-radius 2em
+    font-family 'Lobster', cursive
+    font-size 2.4em
+    height: 50px;
+    margin 40px
+    margin-left 16%
+    margin-right 26%
+    padding 20px
+    text-align center
+    text-shadow 3px 3px 0 #774141
+}
+.ac-container .editamos
+{
+    background url(../img/Verde.png)
+    color #fff
+}
+.ac-container .corregimos
+{
+    background url(../img/Naranja.png)
+    color #fff
+}
+.ac-container .redactamos
+{
+    background url(../img/Rosa.png)
+    color #fff
+}

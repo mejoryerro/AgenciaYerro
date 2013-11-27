@@ -1,0 +1,26 @@
+.asesoria,.gestion,.editing,.correccion,.edicion,.redaccion{background:#fff;-webkit-border-radius:2em;border-radius:2em;font-size:1.3em;font-weight:500;margin:20px auto;padding:20px;position:relative;width:60%;}
+.asesoria .texto,.gestion .texto,.editing .texto,.correccion .texto,.edicion .texto,.redaccion .texto{background:rgba(255,255,255,0.64);-webkit-border-radius:1em;border-radius:1em;padding:0 0;text-shadow:1px 1px 1px #fff}
+.cn-note{visibility:hidden}
+.contacto{margin:auto;width:60%}
+.contacto fieldset{background:#f9e2c0;border:6px solid #fff;-webkit-border-radius:2em;border-radius:2em;font-size:1.2em;font-weight:500;letter-spacing:.03em;margin:40px auto;padding:20px}
+.contacto fieldset div{clear:both;margin-bottom:20px;padding:10px;overflow:hidden}
+.contacto fieldset div label{color:#9b7272;display:block;float:left;line-height:2em;text-align:left;width:84px}
+.contacto input[type="text"],.contacto textarea{background:#fff;border:1px solid #dbd7d7;-webkit-border-radius:1em;border-radius:1em;color:#3d605f;display:block;float:left;padding:8px;resize:none;width:70%;-o-transition:all 0.1s linear;-moz-transition:all 0.1s linear;-ms-transition:all 0.1s linear;-webkit-transition:all 0.1s linear;transition:all 0.1s linear}
+.contacto input[type="text"]:focus,.contacto textarea:focus{border:1px solid #f29c14;-webkit-box-shadow:0 0 10px #f29c14;box-shadow:0 0 10px #f29c14;outline:none}
+.contacto .ultimo{margin-bottom:0;position:relative}
+.contacto button{background:url("../img/Verde.png");border:3px solid #fff;-webkit-border-radius:1em;border-radius:1em;color:#fff;float:right;font-family:'Lobster',cursive;padding:10px;position:relative;text-shadow:3px 3px 0 #774141;-o-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-ms-transition:all 0.2s linear;-webkit-transition:all 0.2s linear;transition:all 0.2s linear}
+.contacto button:hover{background:#3d605f}
+.contacto .hide{display:none}
+.contacto .ajaxgif{position:absolute;right:150px;top:5px}
+.contacto .msg{margin:20px;min-width:121px;text-align:right}
+.contacto .msg_ok{color:#298906}
+.contacto .msg_error{color:#ef2f16}
+@media screen and (min-width: 841px){.asesoria .texto,.gestion .texto,.editing .texto,.correccion .texto,.edicion .texto,.redaccion .texto{padding:1em 2em}
+.asesoria{background:#fff url("../img/servicios-redaccion.jpg") no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.gestion{background:#fff url("../img/servicios-correccion.jpg") no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.editing{background:#fff url("../img/servicios-edicion.jpg") no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.correccion{background:#fff url("../img/servicios-correccion.jpg") no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.edicion{background:#fff url("../img/servicios-edicion.jpg") no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.redaccion{background:#fff url("../img/servicios-redaccion.jpg") no-repeat;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%}
+.cn-note{margin-bottom:1em;text-align:left;visibility:visible;width:30%}
+}
