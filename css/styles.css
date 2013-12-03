@@ -1,3 +1,4 @@
+@font-face{font-family:'icomoon';src:url("fonts/icomoon.eot");src:url("fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("fonts/icomoon.ttf") format('truetype'),url("fonts/icomoon.woff") format('woff'),url("fonts/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
 body{background:#e9f2f0;font-family:'Josefin Sans',sans-serif;font-size:13px}
 footer{background:#f8cacb;clear:both;overflow:hidden;padding:8px}
 footer a{color:#3d605f}
@@ -7,11 +8,11 @@ footer img{width:100%}
 footer p{color:#cc6431}
 footer ul{list-style:none}
 footer .clientes{margin-bottom:50px;margin-top:50px;text-align:center}
-footer .social-foot{font-family:"Sosa";font-size:2.5em;margin-top:50px}
+footer .social-foot{font-family:'icomoon';font-size:2.5em;margin-top:50px}
 footer .social-foot a{text-decoration:none}
-footer .social-foot #facebook:after{content:"v"}
-footer .social-foot #twitter:after{content:"t"}
-footer .social-foot #linkedin:after{content:"ą"}
+footer .social-foot #facebook:after{content:"\e601"}
+footer .social-foot #googleplus:after{content:"\e602"}
+footer .social-foot #linkedin:after{content:"\e600"}
 h2{font-size:2.5em;font-weight:300;letter-spacing:.2em}
 header{background:url("../img/HeaderTela3.jpg") repeat center center;overflow:hidden;padding:0 0 2px 0;position:relative}
 #lema{left:180px;position:absolute;top:0}

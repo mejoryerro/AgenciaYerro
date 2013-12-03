@@ -2,6 +2,16 @@
 
 vendor-prefixes = o moz ms webkit official
 
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot');
+    src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf') format('truetype'),
+        url('fonts/icomoon.woff') format('woff'),
+        url('fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 @media screen and (min-width: 841px)
 
     body
@@ -22,23 +32,23 @@ vendor-prefixes = o moz ms webkit official
                     box-shadow: 0 0 20px #fff;
                     color: #FFF;
                     display: inline-block;
-                    font-family: "Sosa";
-                    font-size: 2em;
+                    font-family: 'icomoon';
+                    font-size: 2.2em;
                     margin: 0 0.4em 0 0;
-                    padding: 0.2em 0.3em;
+                    padding: 0.3em 0.3em;
                     text-decoration: none;
                     
                     &:hover
                         box-shadow 0px 0px 0px #f29c14
 
                 #facebook:after
-                    content "v"
+                    content "\e603"
                 
-                #twitter:after
-                    content "t"
+                #googleplus:after
+                    content "\e605"
                 
                 #linkedin:after
-                    content "ą"
+                    content "\e604"
                 
             .titulo
                 h1
