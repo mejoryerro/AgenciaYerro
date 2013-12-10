@@ -2,29 +2,6 @@
 
 vendor-prefixes = o moz ms webkit official
 
-.asesoria
-.gestion
-.editing
-.correccion
-.edicion
-.redaccion
-    background #fff
-    border-radius 2em
-    font-size 1.3em
-    font-weight 500
-    margin 20px auto
-    padding 20px
-    position relative
-    width 60%
-    .texto
-        background rgba(255, 255, 255, 0.64)
-        border-radius 1em
-        padding 0em 0em
-        text-shadow 1px 1px 1px #fff
-        
-.cn-note
-    visibility hidden
-
 .contacto
 {
 	margin: auto;
@@ -41,14 +18,14 @@ vendor-prefixes = o moz ms webkit official
     margin: 40px auto;
     padding: 20px;
 }
-.contacto fieldset div
+.contacto .campos
 {
 	clear: both;
 	margin-bottom: 20px;
 	padding: 10px;
 	overflow: hidden;
 }
-.contacto fieldset div label
+.contacto .campos label
 {
 	color: #9b7272;
     display: block;
@@ -57,7 +34,7 @@ vendor-prefixes = o moz ms webkit official
     text-align: left;
     width: 84px;
 }
-.contacto input[type="text"], .contacto textarea
+.contacto .email, .contacto .nombre, .contacto textarea
 {
 	background: #fff;
     border: 1px solid #dbd7d7;
@@ -70,7 +47,7 @@ vendor-prefixes = o moz ms webkit official
     width: 70%;
     transition: all 0.1s linear;
 }
-.contacto input[type="text"]:focus, .contacto textarea:focus
+.contacto .campos input:focus, .contacto textarea:focus
 
 {
     border: 1px solid #f29c14;
@@ -82,80 +59,32 @@ vendor-prefixes = o moz ms webkit official
 	margin-bottom: 0;
 	position: relative;
 }					
-.contacto button
+.contacto .boton_envio
 {	
 	background: url("../img/Verde.png");
     border: 3px solid #fff;
     border-radius: 1em;
     color: #FFF;
-    float: right;
-    font-family: 'Lobster', cursive;
+    float: left;
+    font-family: 'CapitolCapitol';
+    font-size 1.3em
     padding: 10px;
     position: relative;
     text-shadow: 3px 3px 0 #774141;
     transition: all 0.2s linear;
 }
-.contacto button:hover
+.contacto .boton_envio:hover
 {	
 	background: #3d605f;
 }
-.contacto .hide
-{	
-	display: none;
-}
-.contacto .ajaxgif
+.correo
 {
-	position: absolute;
-	right: 150px;
-	top: 5px;
+    margin auto
+    width 60%
+    text-align center
 }
-.contacto .msg
+.correo a
 {
-    margin: 20px;
-    min-width: 121px;
-    text-align: right;
+    color #cc6431
 }
-.contacto .msg_ok
-{
-    color: #298906;
-}
-.contacto .msg_error
-{
-	color: #ef2f16;
-}
-
-@media screen and (min-width: 841px)
-
-    .asesoria
-    .gestion
-    .editing
-    .correccion
-    .edicion
-    .redaccion
-        .texto
-            padding 1em 2em
-    .asesoria
-        background #fff url(../img/servicios-redaccion.jpg) no-repeat
-        background-size 100%
-    .gestion
-        background #fff url(../img/servicios-correccion.jpg) no-repeat
-        background-size 100%
-    .editing
-        background #fff url(../img/servicios-edicion.jpg) no-repeat
-        background-size 100%
-    .correccion
-        background #fff url(../img/servicios-correccion.jpg) no-repeat
-        background-size 100%
-    .edicion
-        background #fff url(../img/servicios-edicion.jpg) no-repeat
-        background-size 100%
-    .redaccion
-        background #fff url(../img/servicios-redaccion.jpg) no-repeat
-        background-size 100%
     
-    .cn-note
-        margin-bottom 1em
-        text-align left
-        visibility visible
-        width 30%
-

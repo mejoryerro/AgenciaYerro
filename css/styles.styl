@@ -12,6 +12,18 @@ rosa_oscuro = #ca9897
 rosa_oscuro_texto = #9b7272
 
 @font-face {
+    font-family: 'CapitolCapitol';
+    src: url('fonts/capitol-webfont.eot');
+    src: url('fonts/capitol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/capitol-webfont.woff') format('woff'),
+         url('fonts/capitol-webfont.ttf') format('truetype'),
+         url('fonts/capitol-webfont.svg#CapitolCapitol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'icomoon';
     src:url('fonts/icomoon.eot');
     src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
@@ -66,6 +78,10 @@ footer .clientes
     margin-bottom 50px
     margin-top 50px
     text-align center
+}
+footer li
+{
+    line-height 1.5em
 }
 footer .social-foot
 {
@@ -170,6 +186,11 @@ header
 {
     visibility hidden
 }
+dd spam
+{
+    color verde_oscuro
+    font-weight 800
+}
 dt
 {
     cursor: pointer;
@@ -187,21 +208,21 @@ dt.activo
 {
     margin-left 1em
     color azul_claro
+    overflow hidden
     text-shadow 1px 1px 3px black
 }
 .titulo h1
 {
-    font-family 'Lobster', cursive
-    font-size 1.7em
+    font-family 'CapitolCapitol'
+    font-size 2em
     line-height 1em
-
 }
 .titulo h3
 {
     font-size 1.1em
     font-weight 300
     letter-spacing 0.1em
-    margin-top -1em
+    margin-top -2em
 }
 /*----------------------------------
 Tabs - Accordion 1
@@ -343,7 +364,7 @@ Tabs - Accordion 1
     border-left: 2px #fff solid;
     border-right: 2px #fff solid;
     border-radius 0em 0em 1em 1em
-    color verde_oscuro
+    color rosa_oscuro_texto
     font-size 1.3em
     font-weight 500
     line-height 1.2em
@@ -366,7 +387,7 @@ Accordion 2
     background gris_fondo
     border 10px #fff solid
     border-radius: 1.5em;
-    color verde_oscuro
+    color rosa_oscuro_texto
     font-size: 1.3em;
     font-weight 500
     line-height: 1.2em;
@@ -379,13 +400,14 @@ Accordion 2
     color verde_oscuro
     text-align center
 }
-.ac-container .editamos, .ac-container .corregimos, .ac-container .redactamos,
+.ac-container #editamos, .ac-container #corregimos, .ac-container #redactamos,
 { 
     border #fff 10px solid
     border-radius 2em
-    font-family 'Lobster', cursive
-    font-size 2.4em
+    font-family 'CapitolCapitol'
+    font-size 2.8em
     height: 50px;
+    line-height 1.2em
     margin 40px
     margin-left 16%
     margin-right 26%
@@ -393,17 +415,17 @@ Accordion 2
     text-align center
     text-shadow 3px 3px 0 #774141
 }
-.ac-container .editamos
+.ac-container #editamos
 {
     background url(../img/Verde.png)
     color #fff
 }
-.ac-container .corregimos
+.ac-container #corregimos
 {
     background url(../img/Naranja.png)
     color #fff
 }
-.ac-container .redactamos
+.ac-container #redactamos
 {
     background url(../img/Rosa.png)
     color #fff
