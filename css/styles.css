@@ -12,9 +12,10 @@ footer .clientes{margin-bottom:50px;margin-top:50px;text-align:center}
 footer li{line-height:1.5em}
 footer .social-foot{font-family:'icomoon';font-size:2.5em;margin-top:50px}
 footer .social-foot a{text-decoration:none}
-footer .social-foot #facebook:after{content:"\e601"}
-footer .social-foot #googleplus:after{content:"\e602"}
-footer .social-foot #linkedin:after{content:"\e600"}
+footer .social-foot #twitter:after{content:"\e605"}
+footer .social-foot #facebook:after{content:"\e602"}
+footer .social-foot #googleplus:after{content:"\e603"}
+footer .social-foot #linkedin:after{content:"\e606"}
 h2{font-size:2.5em;font-weight:300;letter-spacing:.2em}
 header{background:url("../img/HeaderTela3.jpg") repeat center center;overflow:hidden;padding:0 0 2px 0;position:relative}
 #lema{left:180px;position:absolute;top:0}

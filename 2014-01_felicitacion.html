@@ -4,13 +4,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" 
           content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Agencia Yerro: contacto</title>
+    <title>Infografías: feleicitación 2014</title>
+    <meta name="keywords" content="corrección ortotipográfica, corrección de estilo, redacción, edición digital" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic|Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styles2.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -46,62 +47,60 @@
                 <a id="linkedin" href="http://www.linkedin.com/company/agencia-yerro" target="_blank"></a>
         </div>
     </header>
-    <div class='correo'>
-        <p>
-            Puedes enviarnos un correo a <a href='mailto:info@agenciayerro.com'>info@agenciayerro.com</a> 
-            o bien rellenar el formulario de contacto.
-        </p>
+    <div class="infografia">
+        <h2>Postal 2014</h2>
+        <p>A todos los que formáis parte de la cadena de valor del libro, a quien tiene algo que contar y lo escribe, a quien mima el mensaje, a quien cuida su apariencia, a quien lo sirve en papel o en bits y, sobre todo, a quien lo lee, os deseamos FELIZ 2014.</p>
+        <figure>
+            <a href="img/Felicitacion_2014.jpg"><img src="img/Felicitacion2014_BAJA.jpg" /></a>
+        </figure>
     </div>
-    <form action="validar.php" method="post" class="contacto">
-        <fieldset>
-            <div class="campos">
-                <label for="nombre">Nombre</label>
-                <input 
-                    type="text" 
-                    class="nombre" 
-                    name="nombre" 
-                    required 
-                    placeholder="Tu nombre" />
-            </div>
-            <div class="campos">
-                <label for="email">E-mail</label>
-                <input 
-                    type="email" 
-                    class="email" 
-                    name="email" 
-                    required 
-                    placeholder="tucorreo@gmail.com" />
-            </div>
-            <div class="campos">
-                <label for="mensaje">Mensaje</label>
-                <textarea 
-                    cols="30" rows="5" 
-                    class="mensaje" 
-                    name="mensaje" 
-                    required>
-                </textarea>
-            </div>
-                <script type="text/javascript">
-                    var RecaptchaOptions = {
-                    theme : 'clean',
-                    };
-                </script> 
-            <?php
-                    require_once('recaptchalib.php');
-                    $pubkey = "6Ld8EOsSAAAAAO1uT5eKe_2xNgV8FuKq737E77xj";
-                    echo recaptcha_get_html($pubkey);
-            ?>           
-            <input type="submit" value="enviar mensaje" class="boton_envio" />
-        </fieldset>
-    </form>
     <footer>
+        <div>
+            <ul>
+                <!--<li><a href="http://edicionportallas.wordpress.com">Blog</a></li>-->
+                <li><a href="contacto.php">Contacto</a></li>
+                <li><a id="infografia" href="infografias.html">Infografías</a></li>
+            </ul>
+        </div>
+        <div class="servicios-cn">
+            <ul>
+                <li><a href="http://www.agenciayerro.com/#asesoramos">Asesoría</a></li>
+                <li><a href="http://www.agenciayerro.com/#estructura">Gestión de recursos</a></li>
+                <li><a href="http://www.agenciayerro.com/#gestionamos">Editing</a></li>
+            </ul>
+        </div>
+        <div class="servicios-ac">
+            <ul>
+                <li><a href="http://www.agenciayerro.com/#editamos">Edición</a></li>
+                <li><a href="http://www.agenciayerro.com/#corregimos">Corrección</a></li>
+                <li><a href="http://www.agenciayerro.com/#redactamos">Redacción</a></li>
+            </ul>
+        </div>
         <div class="social-foot">
                 <a id="twitter" href="https://twitter.com/a_yerro" target="_blank"></a>
                 <a id="facebook" href="https://www.facebook.com/AgenciaYerro" target="_blank"></a>
                 <a id="googleplus" href="https://plus.google.com/+AgenciayerroEd" target="_blank"></a>
                 <a id="linkedin" href="http://www.linkedin.com/company/agencia-yerro" target="_blank"></a>
         </div>
-        <div class="credito"><p>© Agencia Yerro</p></div>
+        <div class="clientes">
+            <p>Clientes principales</p>
+                <a href="http://www.edelsa.es">
+                        <figure>
+                            <img src="img/Edelsa.png" />
+                        </figure>
+                </a>
+                <a href="http://www.cuatrotuercas.com">
+                        <figure>
+                            <img src="img/cuatro_tuercas.png" />
+                        </figure>
+                </a>
+                <a href="http://alterware.wordpress.com">
+                        <figure>
+                            <img src="img/alterware.png" />
+                        </figure>
+                </a>
+        </div>
+        <div class="credito"><p>© Agencia Yerro | Ilustraciones: <a href="http://nachodemarcos.blogspot.com.es">Nacho de Marcos</a></p></div>
     </footer>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="js/funciones.js"></script>

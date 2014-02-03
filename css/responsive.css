@@ -3,9 +3,10 @@
 header #social{position:absolute;right:2em;top:1.5em;visibility:visible;}
 header #social a{background:#699 url("../img/social-icon.jpg") repeat top left;-webkit-border-radius:10em;border-radius:10em;border:2px #fff solid;-webkit-box-shadow:0 0 20px #fff;box-shadow:0 0 20px #fff;color:#fff;display:inline-block;font-family:'icomoon';font-size:2.2em;margin:0 .4em 0 0;padding:.3em .3em;text-decoration:none;}
 header #social a:hover{-webkit-box-shadow:0 0 0 #f29c14;box-shadow:0 0 0 #f29c14}
-header #social #facebook:after{content:"\e603"}
-header #social #googleplus:after{content:"\e605"}
-header #social #linkedin:after{content:"\e604"}
+header #social #twitter:after{content:"\e600"}
+header #social #facebook:after{content:"\e601"}
+header #social #googleplus:after{content:"\e604"}
+header #social #linkedin:after{content:"\e607"}
 header .titulo h1{font-size:2.6em}
 header .titulo h3{font-size:1.3em}
 .cn-container{float:left;display:inline-block;margin-left:4%;}
